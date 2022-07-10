@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navright ul{
+    display: flex;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 100px;
+    background-color: rgb(23, 52, 118);
+    color: rgb(243, 242, 238);
+}
+.brandname{
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: monospace;
+}
+.navright ul li{
+    padding: 0px 40px;
+    list-style: none;
+}
+.navright ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: monospace;
+}
+.navright ul li a :hover{
+    color: brown;
+    background-color: rgb(225, 140, 36);
+}
+span{
+    color: red;
+}
+/* homestart */
+section{
+    height: 100vh;
+}
+#home{
+    background-image: url(homebk.jpg);
+    /* filter: blur(8px);
+    -webkit-filter: blur(8px); */
+   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    box-sizing: border-box;
+   width: 100%;
+  text-align: left;
+}
+.homepara{
+    font-size: 50px;
+    color: rgb(235, 210, 210);
+    padding-top: 100px;
+    text-shadow: 1px 1px 2px rgb(26, 22, 219);
+    font-family: monospace;
+
+  
+}
+.homebtn{
+    margin-left: 400px;
+}
+button{
+    font-size: 20px;
+    padding: 10px 20px;
+    border: 3px solid rgb(34, 12, 194);
+    border-radius: 10px ;
+    text-align: center;
+
+}
+button :hover{
+    color: white;
+    background-color: black;
+}
+/* about us  start*/
+#about{
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+}
+.contentleft img{
+height: 50%;
+padding-top: 150px;
+}
+.contentleft{
+    width: 50%;
+}
+
+#service{
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+}
+.contentleft img{
+    height: 50%;
+    padding-top: 150px;
+}
+.contentleft{
+    width: 50%;
+}
+.contentright{
+    padding-top: 160px;
+    font-size: 45px;
+}
+/* signup start */
+#signup{
+    text-align: center;
+    background-image: url(signupimg.jpg);
+}
+.signupform{
+    padding-top: 120px;
+}
+input{
+    font-size: 25px;
+    padding: 3px 50px;
+    border: 2px solid black;
+    margin: 3px;
+    border-radius: 10px;
+    text-shadow: 2px 1px 2px black;
+    box-shadow: 2px 1px 2px black;
+
+}
+.signupheading{
+    font-size: 40px;
+    text-shadow: 2px 2px 2px white;
+    padding-top: 80px;
+}
+/* login start */
+#login{
+    text-align: center;
+    background-image: url(signupimg.jpg);
+}
+.loginform{
+    padding-top: 120px;
+}
+input{
+    font-size: 25px;
+    padding: 3px 50px;
+    border: 2px solid black;
+    margin: 3px;
+    border-radius: 10px;
+    text-shadow: 2px 1px 2px black;
+    box-shadow: 2px 1px 2px black;
+
+}
+.loginheading{
+    font-size: 40px;
+    text-shadow: 2px 2px 2px white;
+    padding-top: 80px;
+}
